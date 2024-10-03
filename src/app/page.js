@@ -46,9 +46,17 @@ export default function Home() {
         </div>
       </section>
       {/* ==========diV01Section========== */}
-      <section className="div01 min-h-[40vh] min-sm:bg-scroll flex items-center justify-center">
-        <h3 className="title text-white"> Desconto 30%</h3>
-        <p>Para sua Primeira viagem</p>
+      <section className="div01 min-h-[40vh] min-sm:bg-scroll flex items-center justify-around">
+        <div className="flex flex-col gap-2">
+          <h3 className="title text-white font-bold"> Desconto 30%</h3>
+          <p className="text-white text-3xl font-bold">Para sua Primeira viagem</p>
+        </div>
+        <Button variant="contained">
+          <a>
+            <WhatsAppIcon />Fale Conosco
+          </a>
+        </Button>
+
       </section>
     </main>
 
