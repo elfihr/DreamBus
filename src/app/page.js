@@ -69,7 +69,7 @@ export default function Home() {
         <div className="grid grid-cols-3 gap-8 max-md:grid-cols-2 max-[480px]:grid-cols-1">
           {features.map((trips, index) => {
             return (
-              <div key={index} className="w-60 h-[20rem] shadow-2xl rounded-md text-center">
+              <div key={index} className="w-60 h-[20rem] shadow-2xl rounded-md text-center hover:scale-110 duration-300">
                 <Image className="rounded-t-lg" src={trips.img} width={400} height={500}></Image>
                 <h3 className="text-[1.5rem] font-semibold">{trips.name}</h3>
                 <p>{trips.desc}</p>
