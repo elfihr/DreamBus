@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *{
   padding: 0;
@@ -13,10 +13,10 @@
 
 .title{
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
-
 }
+
 
 .hero{
   background-position: center;
@@ -32,4 +32,23 @@
   background-size: cover;
   background-attachment: fixed;
   background-image: url('../../public/div01.jpg') ;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  gap:0.3rem;
+  background-color: #f9cc39 ;
+  border:5px solid  #f9cc39;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  transition: 0.2s ease-in-out;
+  &:hover{
+    background-color: transparent;
+    color: #f9cc39;
+  }
+  &:active{
+    transform: scale(0.95);
+  }
 }
