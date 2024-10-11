@@ -78,12 +78,7 @@ export default function Home() {
           })}
         </div>
       </section>
-      <section>
-      <h3 className="title">Depoimentos</h3>
-      <div>
-  
-      </div>
-      </section>
+
     </main>
 
   );
